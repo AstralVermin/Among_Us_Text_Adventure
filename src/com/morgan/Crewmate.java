@@ -1,4 +1,4 @@
-package com.company;
+package com.morgan;
 
 public class Crewmate {
     private String colour;
