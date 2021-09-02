@@ -1,5 +1,4 @@
 package com.morgan;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Tasks {
@@ -13,6 +12,7 @@ public class Tasks {
         crewmateTasks.add("Swiping admin card");
         crewmateTasks.add("Refueling engines");
         crewmateTasks.add("Downloading data");
+        crewmateTasks.add("Setting navigation data");
 
 
         ArrayList<String> impostorTasks = new ArrayList<String>();
@@ -20,5 +20,6 @@ public class Tasks {
         impostorTasks.add("Cleaning vents");
         impostorTasks.add("Turning power off");
         impostorTasks.add("Dumping into reactor");
+        impostorTasks.add("Venting");
     }
 }
