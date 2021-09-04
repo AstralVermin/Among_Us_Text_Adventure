@@ -2,6 +2,7 @@ package com.morgan;
 
 import java.util.ArrayList;
 
+
 public class Impostor {
 
     private boolean makeSus;
@@ -17,7 +18,7 @@ public class Impostor {
         this.crewmate = new ArrayList<Crewmate>();
     }
 
-    public int susDecider(int number, int number2){
+    public boolean susDecider(int number, int number2){
 
         int max = 1;
         int min = 8;
@@ -30,9 +31,8 @@ public class Impostor {
         }
         return susDecider(number, number2);
 
-
     }
-private int findCrewmate(Crewmate crewmate){ return this.crewmate.indexOf(crewmate);}
+    private int findCrewmate(Crewmate crewmate){ return this.crewmate.indexOf(crewmate);}
 
     private int findCrewmate(String id){
         boolean susMatch = false;
@@ -45,11 +45,9 @@ private int findCrewmate(Crewmate crewmate){ return this.crewmate.indexOf(crewma
         return -1;
     }
 
-/*    private boolean updateSus(Crewmate oldCrewmate, Crewmate impostor){
-        int foundPosition = findCrewmate(oldCrewmate);
-        if(foundPosition = <0){
-            return false;
-        }
+/*    private boolean updateSus(){
+
+
     }*/
 
 }
